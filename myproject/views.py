@@ -1,12 +1,7 @@
 from django.http import HttpResponse
 
 def index(request):
+    response = "¡Hola, mundo! Soy Fidel Pineda!"
+    return HttpResponse(response)
 
- dev
-    return HttpResponse("¡Hola, mundo!!!!!")
-    return HttpResponse("¡Hola, mundo! Soy Fidel Pineda!")
-
-    return HttpResponse("¡Hola, mundo!.")
-    return HttpResponse("¡Hola, mundo! Soy Fidel David!.")
-main
 
